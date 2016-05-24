@@ -4,6 +4,7 @@ import pylab as pl
 from scipy.optimize import curve_fit
 import copy
 import sys
+import py2exe
 
 def convertStr(s):
     """Convert string to either int or float."""
